@@ -28,5 +28,5 @@
      debug: msg={{ post_install_message.split('\n') }}
    - pause:
        prompt:  Press ENTER to continue
-         timeout: 10
+       seconds: 10
 
