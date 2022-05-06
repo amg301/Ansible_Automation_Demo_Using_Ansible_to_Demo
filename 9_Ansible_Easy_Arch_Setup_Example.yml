@@ -88,6 +88,6 @@
   tasks:
     - name: Ansible Easy Arch 
       debug: msg={{ post_install_message.split('\n') }}
-    - pause:
-        prompt: "Press ENTER to continue"
+    # - pause:
+    #     prompt: "Press ENTER to continue"
 
